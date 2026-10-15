@@ -1,0 +1,14 @@
+[project]
+name = "consulta-processo"
+version = "0.1.0"
+description = "Consulta o estado de processos de nacionalidade no portal Meu Registo (IRN)"
+requires-python = ">=3.12,<3.15"
+dependencies = [
+    "camoufox>=0.5.8",
+    "google-genai>=2.31.0",
+    "hcaptcha-challenger>=0.19.0",
+    "matplotlib>=3.11.2",
+    "python-dotenv>=1.2.4",
+    "rich>=15.0.0",
+    "tenacity>=9.1.4",
+]
